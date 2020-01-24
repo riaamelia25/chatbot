@@ -26,7 +26,7 @@
 	 </nav>
 </body>
 <script>
-    var ws = new WebSocket("ws://localhost:8000");
+    var ws = new WebSocket("ws://manisbot.heroku.app:8000");
     // Close socket when window closes
     $(window).on('beforeunload', function(){
        ws.close();
